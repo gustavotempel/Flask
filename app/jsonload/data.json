@@ -1,0 +1,138 @@
+{
+    "clienteId": "1234",
+    "results": {
+        "sourceresults": {
+            "persona": {
+                "id": 2,
+                "cuit": "20-12345678-0"
+            },
+            "datosPersonales": {
+                "nombre": "Lionel",
+                "segundoNombre": "Andres",
+                "apellido": "Messi",
+                "segundoApellido": "Cuccittini",
+                "alias": "Lio",
+                "fechaNac": "24/06/1987",
+                "nacionalidad": "Argentina, Española"
+            },
+            "caracteristicasFisicas": {
+                "altura": 170,
+                "peso": 72,
+                "tez": "caucasico",
+                "cabello": "castaño",
+                "contextura": "delgada"
+            },
+            "clubes": [
+                {
+                    "club": "Newell's Old Boys",
+                    "division": "inferiores",
+                    "desde": "1994",
+                    "hasta": "1999",
+                    "partidos": 176,
+                    "goles": 234,
+                    "promedio": 1.33
+                },
+                {
+                    "club": "FC Barcelona",
+                    "division": "inferiores",
+                    "desde": "1999",
+                    "hasta": "2005",
+                    "partidos": 107,
+                    "goles": 105,
+                    "promedio": 0.98
+                },
+                {
+                    "club": "FC Barcelona",
+                    "division": "primera division",
+                    "desde": "2006",
+                    "hasta": "actualidad",
+                    "partidos": 450,
+                    "goles": 417,
+                    "promedio": 0.93
+                }
+            ],
+
+            "partidos": [
+                {
+                    "equipo": "FC Barcelona",
+                    "rival": "Real Madrid",
+                    "fecha": "01/06/2018",
+                    "resultado": "3-0",
+                    "torneo": "Liga Española",
+                    "goles": 2,
+                    "asistencias": 1,
+                    "pases": 34,
+                    "amonestado": 0,
+                    "expulsado": 0
+                },
+                {
+                    "equipo": "FC Barcelona",
+                    "rival": "Real Madrid",
+                    "fecha": "01/06/2018",
+                    "resultado": "3-0",
+                    "torneo": "Liga Española",
+                    "goles": 2,
+                    "asistencias": 1,
+                    "pases": 34,
+                    "amonestado": 0,
+                    "expulsado": 0
+                },
+                {
+                    "equipo": "FC Barcelona",
+                    "rival": "Real Madrid",
+                    "fecha": "01/06/2018",
+                    "resultado": "3-0",
+                    "torneo": "Liga Española",
+                    "goles": 2,
+                    "asistencias": 1,
+                    "pases": 34,
+                    "amonestado": 0,
+                    "expulsado": 0
+                },
+                {
+                    "equipo": "FC Barcelona",
+                    "rival": "Real Madrid",
+                    "fecha": "01/06/2018",
+                    "resultado": "3-0",
+                    "torneo": "Liga Española",
+                    "goles": 2,
+                    "asistencias": 1,
+                    "pases": 34,
+                    "amonestado": 0,
+                    "expulsado": 0
+                },
+                {
+                    "equipo": "Seleccion Argentina",
+                    "rival": "Seleccion Paraguaya",
+                    "fecha": "01/06/2018",
+                    "resultado": "1-1",
+                    "torneo": "Liga Española",
+                    "goles": 2,
+                    "asistencias": 1,
+                    "pases": 34,
+                    "amonestado": 0,
+                    "expulsado": 0
+                }
+
+               
+            ],
+            "morosidades": [
+                {
+                    "fecha": "01-06-2018",
+                    "afiliado": 1,
+                    "monto": 5000,
+                    "moneda": "G",
+                    "sector": "SF"
+                },
+                {
+                    "fecha": "01-06-2018",
+                    "afiliado": 1,
+                    "monto": 5000,
+                    "moneda": "G",
+                    "sector": "SF"
+                }
+            ]
+        }
+    },
+    "consolidatedresults": {}
+}

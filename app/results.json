@@ -1,0 +1,16 @@
+{
+    "cant_sol": 8,
+    "cant_sol_gs": 5,
+    "cant_sol_usd": 3,
+    "cant_sol_sf_gs": 4,
+    "cant_sol_nosf_gs": 1,
+    "cant_sol_sf_usd": 2,
+    "cant_sol_nosf_usd": 1,
+    "monto_sol": 10002030,
+    "monto_sol_gs": 10002000,
+    "monto_sol_usd": 30,
+    "monto_sol_sf_gs": 10001500,
+    "monto_sol_nosf_gs": 500,
+    "monto_sol_sf_usd": 20,
+    "monto_sol_nosf_usd": 10
+}

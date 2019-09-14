@@ -1,11 +1,14 @@
-import  csv, json
-from flask import Flask, request, jsonify
+from flask import Flask
+from flask import request, jsonify
+from flask_restful import Resource, Api
+import twitter_tools
+import csv, json
 
 app = Flask(__name__)
 
 @app.route('/', methods = ['GET', 'POST'])
-def index():
-    return 'Hola Mundo!'
+def hello_world():
+    return 'Hello, World!'
 
 @app.route('/getjson', methods = ['GET', 'POST'])
 def getjson():
@@ -34,7 +37,10 @@ def convertCsvJson():
         data = request.data
         #reader = csv.DictReader(data) json.dumps(data)
     return data
-    
 
+@app.errorhandler(404)
+def page_not_found(error):
+    return '<h1>Pagina no encontrada...</h1>', 404
+    
 if __name__ == '__main__':
     app.run(debug = True, port = 8000)
